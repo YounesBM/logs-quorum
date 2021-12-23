@@ -1,0 +1,258 @@
+DEBUG: cli.knack.cli: Command arguments: ['login', '--identity', '--debug']
+DEBUG: cli.knack.cli: __init__ debug log:
+Cannot enable color.
+DEBUG: cli.knack.cli: Event: Cli.PreExecute []
+DEBUG: cli.knack.cli: Event: CommandParser.OnGlobalArgumentsCreate [<function CLILogging.on_global_arguments at 0x7fb61df3ae18>, <function OutputProducer.on_global_arguments at 0x7fb61dfacbf8>, <function CLIQuery.on_global_arguments at 0x7fb61ddf99d8>]
+DEBUG: cli.knack.cli: Event: CommandInvoker.OnPreCommandTableCreate []
+DEBUG: cli.azure.cli.core: Command index version or cloud profile is invalid or doesn't match the current command.
+DEBUG: cli.azure.cli.core: Command index has been invalidated.
+DEBUG: cli.azure.cli.core: No module found from index for '['login', '--identity', '--debug']'
+DEBUG: cli.azure.cli.core: Loading all modules and extensions
+DEBUG: cli.azure.cli.core: Discovered command modules: ['acr', 'acs', 'advisor', 'ams', 'apim', 'appconfig', 'appservice', 'aro', 'backup', 'batch', 'batchai', 'billing', 'botservice', 'cdn', 'cloud', 'cognitiveservices', 'config', 'configure', 'consumption', 'container', 'cosmosdb', 'databoxedge', 'deploymentmanager', 'dla', 'dls', 'dms', 'eventgrid', 'eventhubs', 'extension', 'feedback', 'find', 'hdinsight', 'interactive', 'iot', 'keyvault', 'kusto', 'lab', 'managedservices', 'maps', 'marketplaceordering', 'monitor', 'natgateway', 'netappfiles', 'network', 'policyinsights', 'privatedns', 'profile', 'rdbms', 'redis', 'relay', 'reservations', 'resource', 'role', 'search', 'security', 'servicebus', 'servicefabric', 'signalr', 'sql', 'sqlvm', 'storage', 'synapse', 'util', 'vm']
+DEBUG: cli.azure.cli.core: Loading command modules:
+DEBUG: cli.azure.cli.core: Name                  Load Time    Groups  Commands
+DEBUG: cli.azure.cli.core: acr                       0.005        27       113
+DEBUG: cli.azure.cli.core: acs                       0.038         8        53
+DEBUG: cli.azure.cli.core: advisor                   0.001         3         6
+DEBUG: cli.azure.cli.core: ams                       0.004        20        90
+DEBUG: cli.azure.cli.core: apim                      0.004         9        50
+DEBUG: cli.azure.cli.core: appconfig                 0.002         7        33
+DEBUG: cli.azure.cli.core: appservice                0.009        65       233
+DEBUG: cli.azure.cli.core: aro                       0.025         1         7
+DEBUG: cli.azure.cli.core: backup                    0.003        15        55
+DEBUG: cli.azure.cli.core: batch                     0.027        31        92
+DEBUG: cli.azure.cli.core: batchai                   0.002        10        30
+DEBUG: cli.azure.cli.core: billing                   0.004        19        52
+DEBUG: cli.azure.cli.core: botservice                0.002        12        42
+DEBUG: cli.azure.cli.core: cdn                       0.005        39       132
+DEBUG: cli.azure.cli.core: cloud                     0.001         1         7
+DEBUG: cli.azure.cli.core: cognitiveservices         0.001         5        21
+DEBUG: cli.azure.cli.core: config                    0.001         2         7
+DEBUG: cli.azure.cli.core: configure                 0.001         3         9
+DEBUG: cli.azure.cli.core: consumption               0.001         8         9
+DEBUG: cli.azure.cli.core: container                 0.001         1        11
+DEBUG: cli.azure.cli.core: cosmosdb                  0.007        43       150
+DEBUG: cli.azure.cli.core: databoxedge               0.003         5        27
+DEBUG: cli.azure.cli.core: deploymentmanager         0.002         7        30
+DEBUG: cli.azure.cli.core: dla                       0.003        23        62
+DEBUG: cli.azure.cli.core: dls                       0.002         7        41
+DEBUG: cli.azure.cli.core: dms                       0.001         3        22
+DEBUG: cli.azure.cli.core: eventgrid                 0.003        18        61
+DEBUG: cli.azure.cli.core: eventhubs                 0.003        16        57
+DEBUG: cli.azure.cli.core: extension                 0.001         1         7
+DEBUG: cli.azure.cli.core: feedback                  0.000         1         1
+DEBUG: cli.azure.cli.core: find                      0.001         1         1
+DEBUG: cli.azure.cli.core: hdinsight                 0.002         8        39
+DEBUG: cli.azure.cli.core: interactive               0.000         1         1
+DEBUG: cli.azure.cli.core: iot                       0.006        16        71
+DEBUG: cli.azure.cli.core: keyvault                  0.007        19       118
+DEBUG: cli.azure.cli.core: kusto                     0.001         3        14
+DEBUG: cli.azure.cli.core: lab                       0.002        11        34
+DEBUG: cli.azure.cli.core: managedservices           0.001         3         8
+DEBUG: cli.azure.cli.core: maps                      0.001         5        13
+DEBUG: cli.azure.cli.core: marketplaceordering       0.001         1         2
+DEBUG: cli.azure.cli.core: monitor                   0.006        32       133
+DEBUG: cli.azure.cli.core: natgateway                0.001         3         6
+DEBUG: cli.azure.cli.core: netappfiles               0.003        13        56
+DEBUG: cli.azure.cli.core: network                   0.045       137       639
+DEBUG: cli.azure.cli.core: policyinsights            0.001         6        12
+DEBUG: cli.azure.cli.core: privatedns                0.003        14        66
+DEBUG: cli.azure.cli.core: profile                   0.001         2         9
+DEBUG: cli.azure.cli.core: rdbms                     0.048        46       198
+DEBUG: cli.azure.cli.core: redis                     0.001         4        24
+DEBUG: cli.azure.cli.core: relay                     0.002        10        37
+DEBUG: cli.azure.cli.core: reservations              0.001         5        12
+DEBUG: cli.azure.cli.core: resource                  0.009        40       186
+DEBUG: cli.azure.cli.core: role                      0.003        17        61
+DEBUG: cli.azure.cli.core: search                    0.001         7        22
+DEBUG: cli.azure.cli.core: security                  0.003        36        82
+DEBUG: cli.azure.cli.core: servicebus                0.003        17        64
+DEBUG: cli.azure.cli.core: servicefabric             0.003        26        75
+DEBUG: cli.azure.cli.core: signalr                   0.001         6        20
+DEBUG: cli.azure.cli.core: sql                       0.008        45       179
+DEBUG: cli.azure.cli.core: sqlvm                     0.001         4        17
+DEBUG: cli.azure.cli.core: storage                   0.031        54       251
+DEBUG: cli.azure.cli.core: synapse                   0.007        39       168
+DEBUG: cli.azure.cli.core: util                      0.001         2         4
+DEBUG: cli.azure.cli.core: vm                        0.036        48       245
+DEBUG: cli.azure.cli.core: Total (64)                0.408      1091      4377
+DEBUG: cli.azure.cli.core: Loaded 1081 groups, 4377 commands.
+DEBUG: cli.azure.cli.core: Updated command index in 0.002 seconds.
+DEBUG: cli.knack.cli: Event: CommandInvoker.OnPreCommandTableTruncate [<function AzCliLogging.init_command_file_logging at 0x7fb61d9ae268>]
+DEBUG: cli.azure.cli.core.azlogging: metadata file logging enabled - writing logs to '/root/.azure/commands/2021-12-23.14-48-55.login.9.log'.
+INFO: az_command_data_logger: command args: login --identity --debug
+DEBUG: cli.knack.cli: Event: CommandInvoker.OnPreArgumentLoad [<function register_global_subscription_argument.<locals>.add_subscription_parameter at 0x7fb61e86b268>, <function register_global_query_examples_argument.<locals>.register_query_examples at 0x7fb61e3f0ae8>]
+DEBUG: cli.knack.cli: Event: CommandInvoker.OnPostArgumentLoad []
+DEBUG: cli.knack.cli: Event: CommandInvoker.OnPostCommandTableCreate [<function register_ids_argument.<locals>.add_ids_arguments at 0x7fb61d5baf28>, <function register_cache_arguments.<locals>.add_cache_arguments at 0x7fb61d5ba6a8>]
+DEBUG: cli.knack.cli: Event: CommandInvoker.OnCommandTableLoaded []
+DEBUG: cli.knack.cli: Event: CommandInvoker.OnPreParseArgs [<function _documentdb_deprecate at 0x7fb61c7ec158>]
+DEBUG: cli.knack.cli: Event: CommandInvoker.OnPostParseArgs [<function OutputProducer.handle_output_argument at 0x7fb61dfacb70>, <function CLIQuery.handle_query_parameter at 0x7fb61ddf9a60>, <function register_global_query_examples_argument.<locals>.handle_example_parameter at 0x7fb61d995950>, <function register_ids_argument.<locals>.parse_ids_arguments at 0x7fb61d5baea0>, <function handler at 0x7fb61c684378>]
+DEBUG: urllib3.connectionpool: Starting new HTTP connection (1): 169.254.169.254:80
+DEBUG: urllib3.connectionpool: http://169.254.169.254:80 "GET /metadata/identity/oauth2/token?resource=https%3A%2F%2Fmanagement.core.windows.net%2F&api-version=2018-02-01 HTTP/1.1" 200 1734
+DEBUG: msrestazure.azure_active_directory: MSI: Retrieving a token from http://169.254.169.254/metadata/identity/oauth2/token, with payload {'resource': 'https://management.core.windows.net/', 'api-version': '2018-02-01'}
+DEBUG: msrestazure.azure_active_directory: MSI: Token retrieved
+INFO: cli.azure.cli.core._profile: MSI: token was retrieved. Now trying to initialize local accounts...
+DEBUG: cli.azure.cli.core.sdk.policies: Request URL: 'https://management.azure.com/subscriptions?api-version=2019-11-01'
+DEBUG: cli.azure.cli.core.sdk.policies: Request method: 'GET'
+DEBUG: cli.azure.cli.core.sdk.policies: Request headers:
+DEBUG: cli.azure.cli.core.sdk.policies:     'Accept': 'application/json'
+DEBUG: cli.azure.cli.core.sdk.policies:     'x-ms-client-request-id': '7386b6d0-63ff-11ec-a733-06cb64e9eb4d'
+DEBUG: cli.azure.cli.core.sdk.policies:     'CommandName': 'login'
+DEBUG: cli.azure.cli.core.sdk.policies:     'ParameterSetName': '--identity --debug'
+DEBUG: cli.azure.cli.core.sdk.policies:     'User-Agent': 'AZURECLI/2.29.0 (DEB) azsdk-python-azure-mgmt-resource/19.0.0 Python/3.6.10 (Linux-5.4.0-1064-azure-x86_64-with-debian-10.11)'
+DEBUG: cli.azure.cli.core.sdk.policies:     'Authorization': '*****'
+DEBUG: cli.azure.cli.core.sdk.policies: Request body:
+DEBUG: cli.azure.cli.core.sdk.policies: This request has no body
+DEBUG: urllib3.connectionpool: Starting new HTTPS connection (1): management.azure.com:443
+DEBUG: urllib3.connectionpool: https://management.azure.com:443 "GET /subscriptions?api-version=2019-11-01 HTTP/1.1" 200 424
+DEBUG: cli.azure.cli.core.sdk.policies: Response status: 200
+DEBUG: cli.azure.cli.core.sdk.policies: Response headers:
+DEBUG: cli.azure.cli.core.sdk.policies:     'Cache-Control': 'no-cache'
+DEBUG: cli.azure.cli.core.sdk.policies:     'Pragma': 'no-cache'
+DEBUG: cli.azure.cli.core.sdk.policies:     'Content-Type': 'application/json; charset=utf-8'
+DEBUG: cli.azure.cli.core.sdk.policies:     'Content-Encoding': 'gzip'
+DEBUG: cli.azure.cli.core.sdk.policies:     'Expires': '-1'
+DEBUG: cli.azure.cli.core.sdk.policies:     'Vary': 'Accept-Encoding'
+DEBUG: cli.azure.cli.core.sdk.policies:     'x-ms-ratelimit-remaining-tenant-reads': '11999'
+DEBUG: cli.azure.cli.core.sdk.policies:     'x-ms-request-id': '86e1c3d3-cdc2-4996-88f5-43aa7304b9f9'
+DEBUG: cli.azure.cli.core.sdk.policies:     'x-ms-correlation-request-id': '86e1c3d3-cdc2-4996-88f5-43aa7304b9f9'
+DEBUG: cli.azure.cli.core.sdk.policies:     'x-ms-routing-request-id': 'WESTEUROPE:20211223T144855Z:86e1c3d3-cdc2-4996-88f5-43aa7304b9f9'
+DEBUG: cli.azure.cli.core.sdk.policies:     'Strict-Transport-Security': 'max-age=31536000; includeSubDomains'
+DEBUG: cli.azure.cli.core.sdk.policies:     'X-Content-Type-Options': 'nosniff'
+DEBUG: cli.azure.cli.core.sdk.policies:     'Date': 'Thu, 23 Dec 2021 14:48:54 GMT'
+DEBUG: cli.azure.cli.core.sdk.policies:     'Content-Length': '424'
+DEBUG: cli.azure.cli.core.sdk.policies: Response content:
+DEBUG: cli.azure.cli.core.sdk.policies: {"value":[{"id":"/subscriptions/b4d3be28-34ab-449b-9f5c-9d86a18a2879","authorizationSource":"RoleBased","managedByTenants":[],"subscriptionId":"b4d3be28-34ab-449b-9f5c-9d86a18a2879","tenantId":"2bf85e61-958a-410c-a699-874839aa6947","displayName":"Abonnement Azure 1","state":"Enabled","subscriptionPolicies":{"locationPlacementId":"Public_2014-09-01","quotaId":"PayAsYouGo_2014-09-01","spendingLimit":"Off"}}],"count":{"type":"Total","value":1}}
+DEBUG: cli.knack.cli: Event: CommandInvoker.OnTransformResult [<function _resource_group_transform at 0x7fb61d97fe18>, <function _x509_from_base64_to_hex_transform at 0x7fb61d97fea0>]
+DEBUG: cli.knack.cli: Event: CommandInvoker.OnFilterResult []
+DEBUG: cli.knack.cli: Event: Cli.SuccessfulExecute []
+DEBUG: cli.knack.cli: Event: Cli.PostExecute [<function AzCliLogging.deinit_cmd_metadata_logging at 0x7fb61d9ae488>]
+INFO: az_command_data_logger: exit code: 0
+INFO: cli.__main__: Command ran in 1.209 seconds (init: 0.277, invoke: 0.932)
+INFO: telemetry.save: Save telemetry record of length 2860 in cache
+INFO: telemetry.check: Positive: The /root/.azure/telemetry.txt does not exist.
+INFO: telemetry.main: Begin creating telemetry upload process.
+INFO: telemetry.process: Creating upload process: "/usr/bin/../../opt/az/bin/python3 /opt/az/lib/python3.6/site-packages/azure/cli/telemetry/__init__.py /root/.azure"
+INFO: telemetry.process: Return from creating process
+INFO: telemetry.main: Finish creating telemetry upload process.
+[
+  {
+    "environmentName": "AzureCloud",
+    "homeTenantId": "2bf85e61-958a-410c-a699-874839aa6947",
+    "id": "b4d3be28-34ab-449b-9f5c-9d86a18a2879",
+    "isDefault": true,
+    "managedByTenants": [],
+    "name": "Abonnement Azure 1",
+    "state": "Enabled",
+    "tenantId": "2bf85e61-958a-410c-a699-874839aa6947",
+    "user": {
+      "assignedIdentityInfo": "MSI",
+      "name": "systemAssignedIdentity",
+      "type": "servicePrincipal"
+    }
+  }
+]
+Creating config ...
+validators
+{
+        "Address": "0xd43e3a202134553582b719bb734de1dbf5c98c1e",
+        "Nodekey": "8158e377443515c2d84f883f0a05f1bdeee1adace56c42d8ead377a947034e87",
+        "NodeInfo": "enode://b71f74f76199e7e5d0c04358ed5954dcb4d9f13aa0cabc18abd072685870d559b42b310e206ffd86f4373e2dd9c82f71c9c3beb641166d9be0f7e49b7bb82574@0.0.0.0:30303?discport=0"
+}
+{
+        "Address": "0x4887d2252446046a5093fa0ed6dd65408acefd3b",
+        "Nodekey": "d6dfa6e7b27f45077161415e77b16f717ee5c3d44a9bf50958418fad25c751da",
+        "NodeInfo": "enode://72695d947e77b12a3651a35af7cfbd60b4bacfbd3b4ef6c6658496a8cee13b4ee88ece9685348faeeded1a2c1b00c39f6d2220a1db657c3b0846be18e7b6ace1@0.0.0.0:30303?discport=0"
+}
+{
+        "Address": "0x7ff1290a34e0f049bd61f436f0d5a958bf6de4d1",
+        "Nodekey": "0d89022df9017cbfef3b085b348417698d18f12185b149b7d81802e065663e47",
+        "NodeInfo": "enode://80d4d0793590a16b0b0c7cb3451902ccef7be5bd19a1e70819f8c3f5028bc97dd0005a7e640aae1a5afb55c1fa16bc31678b0beb2fc46b170068305b5a04999e@0.0.0.0:30303?discport=0"
+}
+{
+        "Address": "0xb1d0503ea7b86b854e83fb98a65b1a49211eec52",
+        "Nodekey": "6672b2f9705083e40e977bfe14f2609b0b716cfa48503ca10c47c5defb955179",
+        "NodeInfo": "enode://bdf58c1ff5299e450622894a094bb8068a4dcd3755018adce763b194e6003a0167462059b8fa4e683d5a928223acd219dcdcaa0c4ea641c7c197d7a61122ce8d@0.0.0.0:30303?discport=0"
+}
+
+
+
+static-nodes.json
+[
+        "enode://b71f74f76199e7e5d0c04358ed5954dcb4d9f13aa0cabc18abd072685870d559b42b310e206ffd86f4373e2dd9c82f71c9c3beb641166d9be0f7e49b7bb82574@0.0.0.0:30303?discport=0",
+        "enode://72695d947e77b12a3651a35af7cfbd60b4bacfbd3b4ef6c6658496a8cee13b4ee88ece9685348faeeded1a2c1b00c39f6d2220a1db657c3b0846be18e7b6ace1@0.0.0.0:30303?discport=0",
+        "enode://80d4d0793590a16b0b0c7cb3451902ccef7be5bd19a1e70819f8c3f5028bc97dd0005a7e640aae1a5afb55c1fa16bc31678b0beb2fc46b170068305b5a04999e@0.0.0.0:30303?discport=0",
+        "enode://bdf58c1ff5299e450622894a094bb8068a4dcd3755018adce763b194e6003a0167462059b8fa4e683d5a928223acd219dcdcaa0c4ea641c7c197d7a61122ce8d@0.0.0.0:30303?discport=0"
+]
+
+
+
+genesis.json
+{
+    "config": {
+        "chainId": 10,
+        "homesteadBlock": 0,
+        "eip150Block": 0,
+        "eip150Hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "eip155Block": 0,
+        "eip158Block": 0,
+        "byzantiumBlock": 0,
+        "constantinopleBlock": 0,
+        "istanbul": {
+            "epoch": 30000,
+            "policy": 0,
+            "ceil2Nby3Block": 0
+        },
+        "txnSizeLimit": 64,
+        "maxCodeSize": 0,
+        "isQuorum": true
+    },
+    "nonce": "0x0",
+    "timestamp": "0x61c48c57",
+    "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000f89af85494d43e3a202134553582b719bb734de1dbf5c98c1e944887d2252446046a5093fa0ed6dd65408acefd3b947ff1290a34e0f049bd61f436f0d5a958bf6de4d194b1d0503ea7b86b854e83fb98a65b1a49211eec52b8410000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0",
+    "gasLimit": "0xe0000000",
+    "difficulty": "0x1",
+    "mixHash": "0x63746963616c2062797a616e74696e65206661756c7420746f6c6572616e6365",
+    "coinbase": "0x0000000000000000000000000000000000000000",
+    "alloc": {
+        "4887d2252446046a5093fa0ed6dd65408acefd3b": {
+            "balance": "0x446c3b15f9926687d2c40534fdb564000000000000"
+        },
+        "7ff1290a34e0f049bd61f436f0d5a958bf6de4d1": {
+            "balance": "0x446c3b15f9926687d2c40534fdb564000000000000"
+        },
+        "b1d0503ea7b86b854e83fb98a65b1a49211eec52": {
+            "balance": "0x446c3b15f9926687d2c40534fdb564000000000000"
+        },
+        "d43e3a202134553582b719bb734de1dbf5c98c1e": {
+            "balance": "0x446c3b15f9926687d2c40534fdb564000000000000"
+        }
+    },
+    "number": "0x0",
+    "gasUsed": "0x0",
+    "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000"
+}
+Creating genesis configmap ...
+Error from server (NotFound): configmaps "goquorum-genesis" not found
+configmap/goquorum-genesis created
+Creating validator keys ...
+Creating keys in vault for validator-1 ...
+ERROR: AKV10032: Invalid issuer. Expected one of https://sts.windows.net/e19284a0-3c97-4e7b-afe2-7fdd7ec6fc88/, https://sts.windows.net/f8cdef31-a31e-4b4a-93e4-5f571e91255a/, https://sts.windows.net/e2d54eb5-3869-4f70-8578-dee5fc7331f4/, found https://sts.windows.net/2bf85e61-958a-410c-a699-874839aa6947/.
+ERROR: AKV10032: Invalid issuer. Expected one of https://sts.windows.net/e19284a0-3c97-4e7b-afe2-7fdd7ec6fc88/, https://sts.windows.net/f8cdef31-a31e-4b4a-93e4-5f571e91255a/, https://sts.windows.net/e2d54eb5-3869-4f70-8578-dee5fc7331f4/, found https://sts.windows.net/2bf85e61-958a-410c-a699-874839aa6947/.
+ERROR: AKV10032: Invalid issuer. Expected one of https://sts.windows.net/e19284a0-3c97-4e7b-afe2-7fdd7ec6fc88/, https://sts.windows.net/f8cdef31-a31e-4b4a-93e4-5f571e91255a/, https://sts.windows.net/e2d54eb5-3869-4f70-8578-dee5fc7331f4/, found https://sts.windows.net/2bf85e61-958a-410c-a699-874839aa6947/.
+Creating keys in vault for validator-2 ...
+ERROR: AKV10032: Invalid issuer. Expected one of https://sts.windows.net/e19284a0-3c97-4e7b-afe2-7fdd7ec6fc88/, https://sts.windows.net/f8cdef31-a31e-4b4a-93e4-5f571e91255a/, https://sts.windows.net/e2d54eb5-3869-4f70-8578-dee5fc7331f4/, found https://sts.windows.net/2bf85e61-958a-410c-a699-874839aa6947/.
+ERROR: AKV10032: Invalid issuer. Expected one of https://sts.windows.net/e19284a0-3c97-4e7b-afe2-7fdd7ec6fc88/, https://sts.windows.net/f8cdef31-a31e-4b4a-93e4-5f571e91255a/, https://sts.windows.net/e2d54eb5-3869-4f70-8578-dee5fc7331f4/, found https://sts.windows.net/2bf85e61-958a-410c-a699-874839aa6947/.
+ERROR: AKV10032: Invalid issuer. Expected one of https://sts.windows.net/e19284a0-3c97-4e7b-afe2-7fdd7ec6fc88/, https://sts.windows.net/f8cdef31-a31e-4b4a-93e4-5f571e91255a/, https://sts.windows.net/e2d54eb5-3869-4f70-8578-dee5fc7331f4/, found https://sts.windows.net/2bf85e61-958a-410c-a699-874839aa6947/.
+Creating keys in vault for validator-3 ...
+ERROR: AKV10032: Invalid issuer. Expected one of https://sts.windows.net/e19284a0-3c97-4e7b-afe2-7fdd7ec6fc88/, https://sts.windows.net/f8cdef31-a31e-4b4a-93e4-5f571e91255a/, https://sts.windows.net/e2d54eb5-3869-4f70-8578-dee5fc7331f4/, found https://sts.windows.net/2bf85e61-958a-410c-a699-874839aa6947/.
+ERROR: AKV10032: Invalid issuer. Expected one of https://sts.windows.net/e19284a0-3c97-4e7b-afe2-7fdd7ec6fc88/, https://sts.windows.net/f8cdef31-a31e-4b4a-93e4-5f571e91255a/, https://sts.windows.net/e2d54eb5-3869-4f70-8578-dee5fc7331f4/, found https://sts.windows.net/2bf85e61-958a-410c-a699-874839aa6947/.
+ERROR: AKV10032: Invalid issuer. Expected one of https://sts.windows.net/e19284a0-3c97-4e7b-afe2-7fdd7ec6fc88/, https://sts.windows.net/f8cdef31-a31e-4b4a-93e4-5f571e91255a/, https://sts.windows.net/e2d54eb5-3869-4f70-8578-dee5fc7331f4/, found https://sts.windows.net/2bf85e61-958a-410c-a699-874839aa6947/.
+Creating keys in vault for validator-4 ...
+ERROR: AKV10032: Invalid issuer. Expected one of https://sts.windows.net/e19284a0-3c97-4e7b-afe2-7fdd7ec6fc88/, https://sts.windows.net/f8cdef31-a31e-4b4a-93e4-5f571e91255a/, https://sts.windows.net/e2d54eb5-3869-4f70-8578-dee5fc7331f4/, found https://sts.windows.net/2bf85e61-958a-410c-a699-874839aa6947/.
+ERROR: AKV10032: Invalid issuer. Expected one of https://sts.windows.net/e19284a0-3c97-4e7b-afe2-7fdd7ec6fc88/, https://sts.windows.net/f8cdef31-a31e-4b4a-93e4-5f571e91255a/, https://sts.windows.net/e2d54eb5-3869-4f70-8578-dee5fc7331f4/, found https://sts.windows.net/2bf85e61-958a-410c-a699-874839aa6947/.
+ERROR: AKV10032: Invalid issuer. Expected one of https://sts.windows.net/e19284a0-3c97-4e7b-afe2-7fdd7ec6fc88/, https://sts.windows.net/f8cdef31-a31e-4b4a-93e4-5f571e91255a/, https://sts.windows.net/e2d54eb5-3869-4f70-8578-dee5fc7331f4/, found https://sts.windows.net/2bf85e61-958a-410c-a699-874839aa6947/.
+Creating enodes configmap ...
+Error from server (NotFound): configmaps "goquorum-node-enodes" not found
+configmap/goquorum-node-enodes created
+Completed
